@@ -31,6 +31,7 @@ const swaggerDefinition = {
     { url: `http://localhost:${port}/api/v1` }
   ]
 };
+
 const options = {
   swaggerDefinition,
   apis: [path.join(__dirname, 'index.js')],
